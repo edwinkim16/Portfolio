@@ -1,120 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Edwin</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome 6 Free CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-KP1r+Jr+Tt3D5DJ7DzSLpM9Aq3q7tC3jI6S6dZz7uwuOaM0HZgPzpxNQkbt4yJ1Tg1gqEn5o5cD9xP7vI3ztxw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Edwin Portfolio</title>
+  </head>
+  <body>
     <!-- Navbar -->
-  <nav>
-    <h1>MyPortfolio</h1>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <h1>MyPortfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-  <!-- Hero -->
-  <header>
-    <div>
-      <h2>Hello, I'm Edwin 👋</h2>
-      <p>Aspiring Web Developer | Passion for coding & design</p>
-    </div>
-  </header>
-
-  <!-- About Me -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a passionate web developer who loves building creative and responsive web applications.
-      My journey started with HTML, CSS, JavaScript, Python and I continue to expand my knowledge in modern frameworks like React, Next.js and Django.
-    </p>
-  </section>
-
-  <!-- Education -->
-  <section id="education">
-    <h2>Education</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <h3>Bsc Information Technology</h3>
-        <p>Jomo Kenyatta University, 2022 - 2025</p>
+    <!-- Hero -->
+    <header>
+      <div>
+        <h2>Hello, I'm Edwin 👋</h2>
+        <p>Aspiring Web Developer | Passion for coding & design</p>
       </div>
-      <div class="timeline-item">
-        <h3>Full Stack Web Development Course</h3>
-        <p>Moringa School 2021 </p>
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>My Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <img src="Assets/anitas.png" alt="Project 1">
-        <div class="content">
-          <h3>Anitas kitchen</h3>
-          <p>A restaurant landing page.</p>
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate web developer who loves building creative and
+        responsive web applications. My journey started with HTML, CSS,
+        JavaScript, Python and I continue to expand my knowledge in modern
+        frameworks like React, Next.js and Django.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Bsc Information Technology</h3>
+          <p>Jomo Kenyatta University, 2022 - 2025</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Full Stack Web Development Course</h3>
+          <p>Moringa School 2021</p>
         </div>
       </div>
-      <div class="project-card">
-        <img src="Assets/awards.png" alt="Project 2">
-        <div class="content">
-          <h3>Awards</h3>
-          <p>A web app that allow a user to post a project he/she has created and get it reviewed by others.</p>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="Assets/qr.png" alt="Project 3">
-        <div class="content">
-          <h3>QR Code Generator</h3>
-          <p>Generate a QR code for a particular keyword to redirect the users using the QR code</p>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="Assets/Blogs django.png" alt="Project 4">
-        <div class="content">
-          <h3>Blogs Site</h3>
-          <p>A blogs post recommendation site</p>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="Assets/weather.png" alt="Project 5">
-        <div class="content">
-          <h3>Weather Application</h3>
-          <p>Know about the weather of your city or any city around the world using this weather application which fetches the weather condition of any city around the world</p>
-        </div>
-      </div>
-      <div class="project-card">
-        <img src="https://picsum.photos/id/1050/400/250" alt="Project 6">
-        <div class="content">
-          <h3>Plotly Graph</h3>
-          <p>Chart types</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form id="contactForm">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+    <!-- Projects -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="Assets/anitas.png" alt="Project 1" />
+          <div class="content">
+            <a
+              href="https://edwinkim16.github.io/Anita-Kitchen-/"
+              target="_blank"
+              ><h3>Anitas kitchen</h3></a
+            >
+            <p>A restaurant landing page.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="Assets/awards.png" alt="Project 2" />
+          <div class="content">
+            <a href="https://github.com/edwinkim16/awards" target="_blank"
+              ><h3>Awards</h3></a
+            >
+            <p>
+              A web app that allow a user to post a project he/she has created
+              and get it reviewed by others.
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="Assets/qr.png" alt="Project 3" />
+          <div class="content">
+            <a href="https://edwinkim16.github.io/Qr_code-/" target="_blank"
+              ><h3>QR Code Generator</h3></a
+            >
+            <p>
+              Generate a QR code for a particular keyword to redirect the users
+              using the QR code
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="Assets/Blogs django.png" alt="Project 4" />
+          <div class="content">
+            <a href="https://github.com/edwinkim16/Blog_App" target="_blank"
+              ><h3>Blogs Site</h3></a
+            >
+            <p>A blogs post recommendation site</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="Assets/weather.png" alt="Project 5" />
+          <div class="content">
+            <a href="https://edwinkim16.github.io/Weather-site/" target="_blank"
+              ><h3>Weather Application</h3></a
+            >
+            <p>
+              Know about the weather of your city or any city around the world
+              using this weather application which fetches the weather condition
+              of any city around the world
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="Assets/plotly graphs.png" alt="Project 6" />
+          <div class="content">
+            <a
+              href="https://edwinkim16.github.io/Plotly-Graphs/"
+              target="_blank"
+              ><h3>Plotly Graph</h3></a
+            >
+            <p>A website showing various Chart types</p>
+          </div>
+        </div>
+        <a href="https://github.com/edwinkim16" target="_blank" class="btn-link"
+          >View all projects</a
+        >
+      </div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Edwin. All rights reserved.</p>
-  </footer>
-  <script src="main.js"></script>
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div style="text-align: center; margin-bottom: 2rem">
+        <p>
+          <strong>Phone:</strong>
+          <a href="tel:+254702352396">+254 702352396</a>
+        </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:edwinkimathi226@gmail.com">edwinkimathi226@gmail.com</a>
+        </p>
+      </div>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
 
-</body>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Edwin. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
